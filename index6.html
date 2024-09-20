@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let ol1 = document.createElement("ol")
+        let ol1li1 = document.createElement("li")
+        let ol1li2 = document.createElement("li")
+        let ol2 = document.createElement("ol")
+        let ol2li1 = document.createElement("li")
+        let ol2li2 = document.createElement("li")
+        ol1.innerText = "Tea"
+        ol1li1.innerText = "ginger Tea"
+        ol1li2.innerText = "lemon Tea"
+        ol2.innerText = "Biryani"
+        ol2li1.innerText = "Chicken Biryani"
+        ol2li2.innerText = "Mutton Biryani"
+        ol1.appendChild(ol1li1)
+        ol1.appendChild(ol1li2)
+        ol1.appendChild(ol2)
+        ol2.appendChild(ol2li1)
+        ol2.appendChild(ol2li2)
+        document.body.appendChild(ol1)
+    </script>
+</body>
+</html>

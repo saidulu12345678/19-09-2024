@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let dl = document.createElement("dl")
+        let dt1 = document.createElement("dt")
+        let dt2 = document.createElement("dt")
+        let dt3 = document.createElement("dt")
+        let dd1 = document.createElement("dd")
+        let dd2 = document.createElement("dd")
+        let dd3 = document.createElement("dd")
+        dt1.innerText = "HTML"
+        dt2.innerText = "CSS"
+        dt3.innerText = "JS"
+        dd1.innerText = "Hyper Text Markup Language"
+        dd2.innerText = "Cascading Style Sheets"
+        dd3.innerText = "javascript"
+        dl.appendChild(dt1)
+        dl.appendChild(dd1)
+        dl.appendChild(dt2)
+        dl.appendChild(dd2)
+        dl.appendChild(dt3) 
+        dl.appendChild(dd3)
+        document.body.appendChild(dl)
+    </script>
+</body>
+</html>

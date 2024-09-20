@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,tr,th,td{
+            border: 2px solid;
+            border-collapse: collapse;
+        }
+        td{
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+   <script>
+    let Table = document.createElement("table");
+    let row1 = document.createElement("tr")
+    let row2 = document.createElement("tr")
+    let row3 = document.createElement("tr")
+    let row1th1 = document.createElement("th")
+    let row1th2 = document.createElement("th")
+    let row2td1 = document.createElement("td")
+    let row2td2 = document.createElement("td")
+    let row3td1 = document.createElement("td")
+    let row3td2 = document.createElement("td")
+    row1th1.innerText = "Name";
+    row1th2.innerText = "Age";
+    row2td1.innerText = "Saidulu";
+    row2td2.innerText = "22";
+    row3td1.innerText = "Abhiram";
+    row3td2.innerText = "18";
+    row1.appendChild(row1th1)
+    row1.appendChild(row1th2)
+    row2.appendChild(row2td1)
+    row2.appendChild(row2td2)
+    row3.appendChild(row3td1)
+    row3.appendChild(row3td2)
+    Table.appendChild(row1)
+    Table.appendChild(row2)
+    Table.appendChild(row3)
+    document.body.appendChild(Table)
+
+   </script> 
+</body>
+</html>
